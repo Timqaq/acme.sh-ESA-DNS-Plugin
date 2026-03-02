@@ -62,6 +62,7 @@ acme.sh --issue --dns dns_ali_esa -d example.com --debug 2
 | `InvalidAccessKeyId` | AK 错误或已被禁用 | 检查 `Ali_ESA_Key` |
 | `SignatureDoesNotMatch` | SK 错误 | 检查 `Ali_ESA_Secret` |
 | `Cannot find ESA site` | 域名未接入 ESA，或地域不对 | 确认域名已在对应 Region 的 ESA 中，并检查 `Ali_ESA_Region` |
+| `NoPermission` | RAM 用户没有 ESA 相关权限 | 登录 [RAM 控制台](https://ram.console.aliyun.com) → 用户 → 找到对应用户 → 添加权限`AliyunESAFullAccess` |
 
 ## 工作原理
 
