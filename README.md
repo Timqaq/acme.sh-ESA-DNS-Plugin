@@ -1,5 +1,7 @@
 # dns_ali_esa — acme.sh DNS API plugin for Alibaba Cloud ESA
 
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
+
 [acme.sh](https://github.com/acmesh-official/acme.sh) 的阿里云 ESA（边缘安全加速）DNS 验证插件，支持通过 ESA DNS API 自动完成 ACME DNS-01 challenge，申请/续签 Let's Encrypt 等证书。
 
 | 操作 | 权限 |
@@ -70,4 +72,4 @@ acme.sh --issue --dns dns_ali_esa -d example.com --debug 2
 
 ## License
 
-MIT
+This project is licensed under the [GNU General Public License v3.0](LICENSE).
